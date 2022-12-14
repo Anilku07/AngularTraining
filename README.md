@@ -43,3 +43,15 @@ On Windows client computers, the execution of PowerShell scripts is disabled by 
 To create angular application `ng new my-app`
 To run application `cd my-app`
 `ng serve --open` these cmds. The --open (or just -o) option automatically opens your browser to http://localhost:4200/
+
+## To add new component 
+
+To add new component use this command `ng g c component-name` in cli or create file manually. similarly we can add component `c` or service `s` or pipe `p` etc to project.
+
+I have added `ng g c components/Footer` similarly other components added
+
+## To add bootstarp 
+
+To add bootstarp we have to use this cmd `ng add ngx-bootstrap`
+
+
