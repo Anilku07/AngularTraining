@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## To SetUp Angular cli
+
+To SetUp Angular, 
+First need to install [Notepad++ optional](https://notepad-plus-plus.org/downloads/).
+Need to install [Visual Studio Code recommended optional](https://code.visualstudio.com/download).
+Need to install if node js not in your system to check use this cmd in terminal `node -v`.
+If not exists then need to install [node js](https://nodejs.org/en/download/)
+Need to Install angular cli if not exists to check using this cmd in terminal `ng version`.
+to install run this cmd `npm install -g @angular/cli`. 
+
+On Windows client computers, the execution of PowerShell scripts is disabled by default. To allow the execution of PowerShell scripts, which is needed for npm global binaries, you must set the following cmd `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`.
+
+
+## To Create angular application 
+To create angular application `ng new my-app`
+To run application `cd my-app`
+`ng serve --open` these cmds. The --open (or just -o) option automatically opens your browser to http://localhost:4200/
